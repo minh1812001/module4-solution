@@ -1,11 +1,11 @@
 (function () {
 
-var names = ["Yaakov", "John", "Jen", "Dung", "Tu", "Thai", "Hiep", "Ling", "Thong", "Minh"];
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
 for (var i = 0; i < names.length; i++) {
   var firstLetter = names[i].charAt(0).toLowerCase();
 
-  if (firstLetter === 't') {
+  if (firstLetter === 'j') {
     sayGoodBye(names[i]);
   }
   else {
